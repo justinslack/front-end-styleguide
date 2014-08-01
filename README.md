@@ -16,4 +16,4 @@ To use:
 - Run jekyll serve --watch
 - Prosper
 
-If you are having trouble please consult An [Jekyll installation instructions](http://http://jekyllrb.com/)
+If you are having trouble please consult the [Jekyll installation instructions](http://http://jekyllrb.com/)
