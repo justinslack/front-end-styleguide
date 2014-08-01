@@ -1,0 +1,23 @@
+name: Style guide
+main_title: Front-end styleguide
+markdown: redcarpet
+highlighter: pygments
+permalink: /:title
+comments: true
+
+exclude: [
+    'node_modules',
+    'bower_components',
+    'Gruntfile.js',
+    'package.json',
+    'bower.json',
+    'requirements.txt',
+    'Gemfile',
+    'Gemfile.lock',
+    'README.md',
+    'sass',
+    'js',
+    'coffee',
+    'env',
+    'tmp'
+]

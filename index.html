@@ -1,0 +1,11 @@
+---
+layout: default
+title: NML front-end best practice
+---
+
+{% include aside.html %}
+
+<div class="content">
+	{% capture about %}{% include about.md %}{% endcapture %}
+    {{ about | markdownify }}
+</div>

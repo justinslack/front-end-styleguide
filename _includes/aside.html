@@ -1,0 +1,17 @@
+<aside role="complementary">
+  <h1>Sections</h1>
+  <nav role="navigation">
+  	<ul class="menu" id="nav">
+        <li><a href="/">Introduction</a></li>
+    	{% for post in site.posts %}
+      	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    	{% endfor %}
+  	</ul>
+  </nav>
+
+  <a class="faq" href="/faq/">Markdown guide</a>
+
+
+
+
+</aside>
